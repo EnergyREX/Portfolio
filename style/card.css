@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    background-color: #101010;
+    color:#d5d5d5;
+}
+
+.card {
+    display: inline-block;
+    width: 45rem;
+    height: 30rem;
+    background-color: rgb(48, 52, 54);
+    margin: 7rem;
+    border-radius: 3px;
+    padding: 1rem 2rem 1rem 2rem;
+    transition: transform 0.5s ease;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 2px 2px rgba(80, 80, 80, 0.2);
+    transition: ease-in-out 0.3s ;
+}
+
+.card h1 {
+    font-size: 2rem;
+    position: absolute;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: rgb(48, 52, 54);
+    border-radius: 5px 5px 5px 5px;
+    transition: opacity ease;
+    margin-left: 1.6rem;
+  }
+
+  .hidden-text {
+    font-size: 2rem;
+    margin: 2rem;
+    display: block;
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    opacity: 0;
+    transform: rotateY(-180deg);
+    transition: opacity 0.3s ease, transform 0.5s ease;
+}
+
+  
+.card:hover {
+    transform: rotateY(180deg);
+}
+  
+.card:hover img {
+    opacity: 0;
+}
+  
+.card:hover h1 {
+    opacity: 0;
+}
+
+.card:hover .hidden-text {
+    opacity: 1;
+    transform: rotateY(-180deg);
+    text-align: left;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    background-color: #101010;
+    color:#d5d5d5;
+}
+
+.title h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 40px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+}
+
+.soft-divider {
+    width: 17rem;
+    height: 1px;
+    border: 0;
+    background-color: #fff;
+}
+
+
