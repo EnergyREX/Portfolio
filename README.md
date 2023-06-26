@@ -27,4 +27,4 @@ The TO-DO list:What I have to do:
 
 I have some projects considered, like: A "Big" Minecraft Mod for a Minecraft Server, with continous development. Other things that I think that I shouldn't to say right now.
 
-Want to see the page live? Visit this link. https://energyrex.github.io/MyCV/
+Want to see the page live? Visit this link. https://energyrex.github.io/Portfolio/
