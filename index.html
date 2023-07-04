@@ -4,24 +4,47 @@
         <title>EnergyREX's Portfolio</title>
         <link rel="stylesheet" href="style/main.css">
         <link rel="stylesheet" href="style/nav.css">
-        <link rel="stylesheet" href="style/card.css"
+        <link rel="stylesheet" href="style/card.css">
     </head>
     <body>
 
+        <!-- Website nav -->
+
         <nav class="nav">
-            <a class="nav" href="index.html">Home</a>
-            <div class="vr"></div>
-            <a class="nav" href="sub-pages/about.html">About me</a>
-            <div class="vr"></div>
-            <a class="nav" href="projects.html">Projects</a>
+            <ul class="nav"> 
+                <li><a class="nav" href="index.html">Home</a>
+                <li> <div class="vr"/>
+                <li> <a class="nav" href="sub-pages/about.html">About me</a>
+                <li> <div class="vr"/>
+                <li> <a class="nav" href="projects.html">Projects</a>
+            </ul>
         </nav>
 
+    <header class="index-head"> <!-- Website title. Responsive design is pending. -->
         <div class="title">
         <h1 class="title">EnergyREX's Portfolio</h1>
         <hr class="soft-divider">
         </div>
+        <div class="short-desc">
+        </div>
+    </header>
 
-        <div class="card">
+    <!-- Website cards -->
+
+    <!-- This cards work by this style: 
+         <container>
+            <article/>
+            <article/>
+            <article/>
+         </container>
+         This is a very short explanation, I thing that It's enough.
+
+         Responsive design is pending.   
+    -->
+    <section class="container">
+            <h3> Here you have some projects I've made. </h3>
+
+        <article  class="card">
             <h1>Some testing purposes.</h1>
             <span class="hidden-text"> Don't worry! This is just a
                 placeholder, any image is not loading bad, is loading well!
@@ -29,9 +52,9 @@
                 exciting projects over here! This only a WIP component of the website!
             </span>
             <img src="images/image-placeholder.png">
-        </div>
+        </article>
 
-        <div class="card">
+        <article class="card">
             <h1>Some testing purposes.</h1>
             <span class="hidden-text"> Don't worry! This is just a
                 placeholder, any image is not loading bad, is loading well!
@@ -40,9 +63,9 @@
                 This only a WIP component of the website!
             </span>
             <img src="images/image-placeholder.png">
-        </div>
+        </article>
 
-        <div class="card">
+        <article class="card">
             <h1>Some testing purposes.</h1>
             <span class="hidden-text"> Don't worry! This is just a
                 placeholder, any image is not loading bad, is loading well!
@@ -51,6 +74,20 @@
                 This only a WIP component of the website!
             </span>
             <img src="images/image-placeholder.png">
-        </div>
+        </article>
+
+    </section>
+    <section class="container">
+        <article class="wide-card">
+            <h1>Some testing purposes.</h1>
+            <span class="hidden-text"> Don't worry! This is just a
+                placeholder, any image is not loading bad, is loading well!
+                Consider this as a simple test. Later, there will better and more
+                exciting projects over here!
+                This only a WIP component of the website!
+            </span>
+            <img src="images/image-placeholder.png">
+        </article>
+    </section>
     </body>
 </html>
