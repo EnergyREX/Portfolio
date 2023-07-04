@@ -7,13 +7,19 @@ html {
     color:#d5d5d5;
 }
 
-.title h1 {
+.index-head {
+    display: flexbox;
+    justify-content: center;
+}
+
+
+.index-head .title h1 {
     font-size: 3.5rem;
     text-align: center;
     align-items: center;
     padding: 1rem;
     margin-top: 40px;
-    font-weight: 300;
+    font-weight: 500;
     width: 100%;
     text-align: center;
 }
@@ -25,4 +31,8 @@ html {
     background-color: #fff;
 }
 
+.short-desc {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
 
