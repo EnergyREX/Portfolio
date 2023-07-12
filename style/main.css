@@ -7,6 +7,10 @@ html {
     color:#d5d5d5;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .index-head {
     display: flexbox;
     justify-content: center;
