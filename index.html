@@ -8,51 +8,44 @@
     </head>
     <body>
 
-        <!-- Website nav -->
+        <header>
+            <nav class="nav">
+                <ul class="nav">
+                    <li class="nav"><a href=index.html>Home</a></li>
+                    <li class="nav"><div class="vr"></div></li>
+                    <li class="nav"><a href="sub-pages/about.html">About me!</a></li>
+                    <li class="nav"><div class="vr"></div></li>
+                    <li class="nav"><a href="sub-pages/projects.html">Projects</a></li>
+                </ul>
+            </nav>
 
-        <nav class="nav">
-            <ul class="nav"> 
-                <li><a class="nav" href="index.html">Home</a>
-                <li> <div class="vr"/>
-                <li> <a class="nav" href="sub-pages/about.html">About me</a>
-                <li> <div class="vr"/>
-                <li> <a class="nav" href="projects.html">Projects</a>
-            </ul>
-        </nav>
-
-    <header class="index-head"> <!-- Website title. Responsive design is pending. -->
-        <div class="title">
-        <h1 class="title">EnergyREX's Portfolio</h1>
-        <hr class="soft-divider">
-        </div>
-        <div class="short-desc">
-        </div>
-    </header>
-
-    <!-- Website cards -->
-
-    <!-- This cards work by this style: 
-         <container>
-            <article/>
-            <article/>
-            <article/>
-         </container>
-         This is a very short explanation, I thing that It's enough.
-
-         Responsive design is pending, and some behaviour as well.   
-    -->
+            <div class="usr-head">
+                <h1>EnergyREX's Portfolio</h1>
+                <h3>A learner on fullstack development</h3>
+            </div>
+        </header>
+    
     <section class="container">
-            <h3> Here you have some projects I've made. </h3>
+    <article  class="card">
+        <h1>Components</h1>
+        <span class="hidden-text"> This project aims to create components for future projects that
+            I'll make. Some of the components from here will be shown there as well. <br> <br>
+            <b>[PENDING] Add a project image.</b>
+        </span>
+        <img src="images/image-placeholder.png">
+    </article>
 
-        <article  class="card">
-            <h1>Components</h1>
-            <span class="hidden-text"> This project aims to create components for future projects that
-                I'll make. Some of the components from here will be shown there as well. <br> <br>
-                <b>[PENDING] Add a project image.</b>
-            </span>
-            <img src="images/image-placeholder.png">
-        </article>
-
+    <article  class="card">
+        <h1>AstriXMC</h1>
+        <span class="hidden-text"> This is a Minecraft SMP server. Working on FabricMC mod loader, 
+            everything being based on Minecraft mods.<br> <br>
+            
+            [Pending] Add the Minecraft server Symbolic Icon + Custom page on Click + Discord links ... etc.
+            I aim to show everything related to the project, included the custom mods on GitHub.
+        </b>
+        </span>
+        <img src="images/backgroundtest.jpg">
+    </article>
     </section>
     </body>
 </html>

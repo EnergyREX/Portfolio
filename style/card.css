@@ -13,21 +13,22 @@ html {
     margin-top: 10rem;
 }
 
-.container h3 {
+.container h1 {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: wrap row;
     font-weight: 300;
-    position: absolute;
     font-size: 2.5rem;
-    top: 20rem
 }
 
 .card {
-    display: inline-flex;
-    gap: 1rem;
-    width: 45rem;
+    display: flex;
+    width: 55rem;
     height: 30rem;
     background-color: rgb(48, 52, 54);
     margin: 3rem;
-    border-radius: 3px;
+    border-radius: 7px;
     padding: 1rem 2rem 1rem 2rem;
     transition: transform 0.5s ease;
     align-self: center;
@@ -37,8 +38,8 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: 2px 2px 2px 2px rgba(80, 80, 80, 0.2);
-    transition: ease-in-out 0.3s ;
+    transition: ease-in-out 0.3s;
+    border-color: #fff 5px;
 }
 
 .card h1 {

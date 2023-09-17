@@ -12,12 +12,13 @@ body {
 }
 
 .nav {
-    
-    list-style-type: none;
-    font-weight: 300;
-    margin: 1rem 1rem 1rem;
-    text-align: right;
-    justify-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2rem;
+    padding-right: 1rem;
+    flex-direction: row;
+    align-self: center;
 }
 
 .nav li {
@@ -25,20 +26,21 @@ body {
 }
 
 .nav .vr {
-    width: 1px;
+    width: 3px;
     height: 1.4rem;
     background-color: #d5d5d5;
-    display: inline-block;
-    align-items: center;
-    margin: 0.1rem;}
+    margin: 0.1rem;
+    align-self: center;
+}
 
 .nav a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.9rem;
-    display: inline-block;
-    transition:ease-in 0.5s;
+    transition:ease-in 0.6s;
+    font-weight: 200;
     padding: 1rem;
-    opacity: 0.5;}
+    opacity: 1;
+}
+    
 .nav a:hover {
     color: rgb(28, 228, 228);}

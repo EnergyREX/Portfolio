@@ -11,32 +11,25 @@ body {
     overflow-x: hidden;
 }
 
-.index-head {
-    display: flexbox;
+/* * Header  */
+
+.usr-head {
+    display: flex;
     justify-content: center;
-}
-
-
-.index-head .title h1 {
-    font-size: 3.5rem;
-    text-align: center;
     align-items: center;
-    padding: 1rem;
-    margin-top: 40px;
-    font-weight: 500;
-    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.usr-head h1 {
+    font-size: 4rem;
+    display:block;
+    font-weight: 400;
+}
+
+.usr-head h3 {
+    font-size: 2rem;
     text-align: center;
-}
-
-.soft-divider {
-    width: 17rem;
-    height: 1px;
-    border: 0;
-    background-color: #fff;
-}
-
-.short-desc {
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-weight: 200;
 }
 
