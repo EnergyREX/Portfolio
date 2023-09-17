@@ -5,17 +5,18 @@
         <link rel="stylesheet" href="style/main.css">
         <link rel="stylesheet" href="style/nav.css">
         <link rel="stylesheet" href="style/card.css">
+        <link rel="stylesheet" href="style/about-me.css">
     </head>
     <body>
 
         <header>
             <nav class="nav">
                 <ul class="nav">
-                    <li class="nav"><a href=index.html>Home</a></li>
+                    <li class="nav"><a href=#>Home</a></li>
                     <li class="nav"><div class="vr"></div></li>
-                    <li class="nav"><a href="sub-pages/about.html">About me!</a></li>
+                    <li class="nav"><a href="#aboutme-section">About me!</a></li>
                     <li class="nav"><div class="vr"></div></li>
-                    <li class="nav"><a href="sub-pages/projects.html">Projects</a></li>
+                    <li class="nav"><a href="#projects-section">Projects</a></li>
                 </ul>
             </nav>
 
@@ -24,28 +25,115 @@
                 <h3>A learner on fullstack development</h3>
             </div>
         </header>
-    
-    <section class="container">
-    <article  class="card">
-        <h1>Components</h1>
-        <span class="hidden-text"> This project aims to create components for future projects that
-            I'll make. Some of the components from here will be shown there as well. <br> <br>
-            <b>[PENDING] Add a project image.</b>
-        </span>
-        <img src="images/image-placeholder.png">
-    </article>
 
-    <article  class="card">
-        <h1>AstriXMC</h1>
-        <span class="hidden-text"> This is a Minecraft SMP server. Working on FabricMC mod loader, 
-            everything being based on Minecraft mods.<br> <br>
-            
-            [Pending] Add the Minecraft server Symbolic Icon + Custom page on Click + Discord links ... etc.
-            I aim to show everything related to the project, included the custom mods on GitHub.
-        </b>
-        </span>
-        <img src="images/backgroundtest.jpg">
-    </article>
+        <hr id="sect-divider">
+
+    <section class="about-me">
+        <h1 id="aboutme-section">Hi, I'm Francisco! Nice to meet you!</h1>
     </section>
+    <section class="about-me">
+        <p>
+            I'm a guy who is learning code. Actually, I still learning. 
+            I'd like to work for an enterprise soon in a future, but right now I think that 
+            I'm not ready yet, but I'm open to oferts. <br> <br>
+
+            We can see this website as my first "serious" project where I do a website. 
+            I don't know yet... so many things that I'd like to know now.
+            I consider myself a bit autodidact, but I'm more an <b>auto-directed</b> learner.
+        </p>
+    </section>
+
+    <section class="tech-skills"> 
+        <article>
+            <img src="../Portfolio/images/icons/ux-design.png">
+            <hr>
+            <h1>Designing</h1>
+            <hr>
+            <h2>I like to design layouts and make a great experience for users, with satisfactory interaction</h2>
+            <h3>Tools that I use.</h3>
+            <ul>
+                <li>Figma</li>
+                <li>Pen and Paper</li>
+                <li>Google Fonts</li>
+            </ul>
+        </article>
+        <article>
+            <img src="../Portfolio/images/icons/icons8-front-end-64.png">
+            <hr>
+            <h1>Front-End Development</h1>
+            <hr>
+            <h2>I know about developing with actual Front-End Technologies, also 
+                I know the three pillars on web development</h2>
+            <h3>Languages I use </h3>
+                <p>HTML & CSS, JavaScript, React</p>
+            </p>    
+                <h3>Dev tools</h3>
+                <ul>
+                    <li>Shadcdn UI</li>
+                    <li>Bootstrap</li>
+                    <li></li>
+                </ul>
+        </article>
+        <article>
+            <img src="../Portfolio/images/icons/icons8-backend-development-48.png">
+            <hr>
+            <h1>Back-End Development</h1>
+            <hr>
+            <h2>I also like to develop the logic on the server-side 
+                of the websites, I've learnt Java and I'd like to learn Rust too.</h2>
+            <h3>Languages I use</h3>
+                <p>JavaScript w. Node.js and Java, Bash, Linux</p>    
+                <h3>Dev tools</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Bootstrap</li>
+                    <li></li>
+                </ul>
+            </article>
+    </section>
+
+    <hr id="sect-divider">
+
+        <div class="usr-head">
+        <h1 class="usr-head" id="projects-section">My Projects</h1>
+        <h3>Here, you can see some projects I've made</h3>
+        </div>
+       
+    <section class="container-projects">
+        <article class="card">
+            <h1>Components</h1>
+            <span class="hidden-text"> This project aims to make components to develop my own UI library to work with React <br> <br>
+                <b>[PENDING] Add a project image.</b>
+            </span>
+            <img src="images/image-placeholder.png">
+        </article>
+        <article  class="card">
+            <h1>AstriXMC</h1>
+            <span class="hidden-text"> This is a Minecraft SMP server. Working on FabricMC mod loader, 
+                everything being based on Minecraft mods.<br> <br>
+                
+                [Pending] Add the Minecraft server Symbolic Icon + Custom page on Click + Discord links ... etc.
+                I aim to show everything related to the project, included the custom mods on GitHub.
+            </b>
+            </span>
+            <img src="images/backgroundtest.jpg">
+        </article>
+        </section>
+
+        <footer class="usr-footer">
+            <div class="usr-footer">
+                <h1>Living continously learning and becoming better each day.</h1>
+            </div>
+            <div class="socials">
+                <img src="/Portfolio/images/socials/2021 Twitter logo - white.png">
+                <img src="/Portfolio/images/socials/github-mark-white.png">
+                <img src="/Portfolio/images/socials/icons8-linkedin-50.png">
+            </div>
+            <div class="copyright">
+                EnergyREX @ 2023 <br>
+                You can use this code to learn on your own projects
+            </div>
+        </footer>    
+        
     </body>
 </html>

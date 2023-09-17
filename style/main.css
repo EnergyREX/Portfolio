@@ -33,3 +33,48 @@ body {
     font-weight: 200;
 }
 
+/** Section Divider */
+
+    #sect-divider {
+        width: 20rem;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+/** Footer */
+
+.usr-footer {
+    padding-top: 3rem;
+    margin-top: 5rem;
+    display: flex;
+    background-color: rgb(56, 8, 95);
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.usr-footer h1 {
+    font-weight: 300;
+    width: 40rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.usr-footer img {
+    width: 32px;
+    height: 32px;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 25px;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+/* TODO Adding animations to the images.*/
+
+.copyright {
+    padding-top: 3rem;
+    font-weight: 100;
+    text-align: center;
+}

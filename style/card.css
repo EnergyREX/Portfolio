@@ -7,14 +7,16 @@ html {
     color:#d5d5d5;
 }
 
-.container {
+.container-projects {
     display: flex;
     justify-content: center;
     margin-top: 10rem;
 }
 
-.container h1 {
-    display:flex;
+
+
+.container-projects h1 {
+    display: flex;
     justify-content: center;
     align-content: center;
     flex-flow: wrap row;
