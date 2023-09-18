@@ -2,148 +2,102 @@
 
 html {
     font-size: 10px;
-    font-family: 'Inter', sans-serif;
-    background-color: #101010;
-    color:#d5d5d5;
 }
 
 .container-projects {
-    display: flex;
-    justify-content: center;
     margin-top: 10rem;
-}
-
-
-
-.container-projects h1 {
     display: flex;
+    margin: 1rem;
+    flex-flow: nowrap;
     justify-content: center;
     align-content: center;
-    flex-flow: wrap row;
-    font-weight: 300;
-    font-size: 2.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card {
-    display: flex;
-    width: 55rem;
-    height: 30rem;
-    background-color: rgb(48, 52, 54);
+    display:block;
+    width: 35rem;
+    height: 20rem;
+    border: solid 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    flex-flow: wrap;
+    padding: 2rem;
+    transition: 1s;
     margin: 3rem;
-    border-radius: 7px;
-    padding: 1rem 2rem 1rem 2rem;
-    transition: transform 0.5s ease;
-    align-self: center;
 }
 
-.card img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: ease-in-out 0.3s;
-    border-color: #fff 5px;
-}
-
-.card h1 {
-    font-size: 2rem;
-    position: absolute;
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: rgb(48, 52, 54);
-    border-radius: 5px 5px 5px 5px;
-    transition: opacity ease;
-    margin-left: 1.6rem;
-  }
-
-  .hidden-text {
-    font-size: 2rem;
-    margin: 2rem;
-    display: block;
-    position: absolute;
-    text-align: left;
-    color: #fff;
+.card h1 { 
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
     opacity: 0;
-    transform: rotateY(-180deg);
-    transition: opacity 0.3s ease, transform 0.5s ease;
+    transition: 1s ease;
 }
 
-  
+.card h2 {
+    font-weight: 200;
+    text-align: center;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    position:relative;
+    top: -20rem;
+    transition:1s ;
+}
+
 .card:hover {
-    transform: rotateY(180deg);
+    background-color: rgb(5, 31, 49);
+    transform: scale(1.1);
 }
-  
-.card:hover img {
-    opacity: 0;
-}
-  
+
 .card:hover h1 {
-    opacity: 0;
-}
-
-.card:hover .hidden-text {
     opacity: 1;
-    transform: rotateY(-180deg);
-    text-align: left;
+}
+
+.card:hover h2 {
+    opacity: 1;
+}
+
+.card:hover img {
+    opacity: 0.15;
 }
 
 
-.wide-card {
-    display: inline-flex;
-    gap: 1rem;
-    width: 95rem;
-    height: 47rem;
-    background-color: rgb(48, 52, 54);
+.card-noimg {
+    display:block;
+    width: 35rem;
+    height: 20rem;
+    border: solid 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    flex-flow: wrap;
+    padding: 2rem;
+    transition: 1s;
     margin: 3rem;
-    border-radius: 3px;
-    padding: 1rem 2rem 1rem 2rem;
-    transition: transform 0.5s ease;
-    align-self: center;
 }
 
-.wide-card img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    box-shadow: 2px 2px 2px 2px rgba(80, 80, 80, 0.2);
-    transition: ease-in-out 0.3s ;
+.card-noimg h1 { 
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
+    transition: 1s ease;
 }
 
-.wide-card h1 {
-    font-size: 2rem;
-    position: absolute;
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: rgb(48, 52, 54);
-    border-radius: 5px 5px 5px 5px;
-    transition: opacity ease;
-    margin-left: 1.6rem;
-  }
-
-.wide-card .hidden-text {
-    font-size: 2rem;
-    margin: 2rem;
-    display: block;
-    position: absolute;
-    text-align: left;
-    color: #fff;
-    opacity: 0;
-    transform: rotateY(-180deg);
-    transition: opacity 0.6s ease, transform 0.5s ease;
+.card-noimg h2 {
+    font-weight: 200;
+    text-align: center;
+    transition: 1s ease;
 }
 
-  
-.wide-card:hover {
-    transform: rotateY(180deg);
-}
-  
-.wide-card:hover img {
-    opacity: 0;
-}
-  
-.wide-card:hover h1 {
-    opacity: 0;
-}
-
-.wide-card:hover .hidden-text {
-    opacity: 1;
-    transform: rotateY(-180deg);
-    text-align: left;
+.card-noimg:hover {
+    background-color: rgb(49, 109, 151);
+    transform: scale(1.1);
 }

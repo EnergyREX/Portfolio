@@ -19,6 +19,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-bottom: 10rem;
 }
 
 .usr-head h1 {
@@ -61,6 +62,11 @@ body {
     padding-bottom: 3rem;
 }
 
+.usr-footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .usr-footer img {
     width: 32px;
     height: 32px;
@@ -69,12 +75,64 @@ body {
     border-radius: 25px;
     align-items: center;
     margin-left: 2rem;
+    transition: 1s;
 }
 
+.usr-footer img:hover {
+    background-color: #101010;
+}
 /* TODO Adding animations to the images.*/
 
 .copyright {
     padding-top: 3rem;
     font-weight: 100;
     text-align: center;
+}
+
+/** Media queries para el diseño responsive. */
+
+@media screen and (max-width: 768px) {
+
+    html {
+        font-size: 24px;
+        font-family: 'Inter', sans-serif;
+        background-color: #101010;
+        color:#d5d5d5;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+/* * Header  */
+
+    .usr-head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .usr-head h1 {
+        font-size: 4rem;
+        display:block;
+        font-weight: 400;
+    }
+
+    .usr-head h3 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 200;
+    }
+
+/** Section Divider */
+
+        #sect-divider {
+            width: 20rem;
+            margin-bottom: 5rem;
+            margin-top: 5rem;
+        }
+
+/** Footer */
 }
