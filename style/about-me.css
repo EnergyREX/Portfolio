@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    background-color: #101010;
+    color:#d5d5d5;
+}
+
+.about-me {
+    display:flex;
+    background-color: #3a087c;
+    padding-top: 3rem;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: row column;
+}
+
+.about-me h1 {  
+    font-size: 3.0rem;
+    font-weight: 600;
+
+}
+
+.about-me p {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 6rem;
+    font-weight: 300;
+    width: 70rem;
+    padding-top: 0rem;
+}
+
+.tech-skills {
+    display:flex;
+    background-color: #101010;
+    padding-top: 5rem;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tech-skills article {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 30rem;
+    margin: 2.5rem;
+}
+
+.tech-skills h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.tech-skills h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+
+}
+
+.tech-skills ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.tech-skills li {
+    text-align: center; 
+    font-size: 2.0rem;
+}
+
+.tech-skills h3 {
+    font-size: 2.7rem;
+    font-weight: 400;
+    color:#8b40ec;
+}
+
+.tech-skills p {
+    font-size: 2rem;
+}
+
+.tech-skills hr {
+    width: 5rem;
+}
+
+.tech-skills img {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries para responsividad */
+
+/* Ajusta los estilos en pantallas más pequeñas */
+
+@media screen and (max-width: 768px) {
+
+
+    html {
+        font-size: 16px;
+    }
+
+    .about-me {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .about-me h1 {  
+        font-size: 2.6rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .about-me p {
+        font-size: 1.4rem;
+    }
+
+}

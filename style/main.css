@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    background-color: #101010;
+    color:#d5d5d5;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* * Header  */
+
+.usr-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+.usr-head h1 {
+    font-size: 4rem;
+    display:block;
+    font-weight: 400;
+}
+
+.usr-head h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+/** Section Divider */
+
+    #sect-divider {
+        width: 20rem;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+/** Footer */
+
+.usr-footer {
+    padding-top: 3rem;
+    margin-top: 5rem;
+    display: flex;
+    background-color: rgb(56, 8, 95);
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.usr-footer h1 {
+    font-weight: 300;
+    width: 40rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.usr-footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.usr-footer img {
+    width: 32px;
+    height: 32px;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 25px;
+    align-items: center;
+    margin-left: 2rem;
+    transition: 1s;
+}
+
+.usr-footer img:hover {
+    background-color: #101010;
+}
+/* TODO Adding animations to the images.*/
+
+.copyright {
+    padding-top: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+/** Media queries para el diseño responsive. */
+
+@media screen and (max-width: 768px) {
+
+    html {
+        font-size: 24px;
+        font-family: 'Inter', sans-serif;
+        background-color: #101010;
+        color:#d5d5d5;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+/* * Header  */
+
+    .usr-head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .usr-head h1 {
+        font-size: 4rem;
+        display:block;
+        font-weight: 400;
+    }
+
+    .usr-head h3 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 200;
+    }
+
+/** Section Divider */
+
+        #sect-divider {
+            width: 20rem;
+            margin-bottom: 5rem;
+            margin-top: 5rem;
+        }
+
+/** Footer */
+}

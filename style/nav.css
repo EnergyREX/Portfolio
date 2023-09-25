@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    background-color: #010101;
+    color:#d5d5d5;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2rem;
+    padding-right: 1rem;
+    flex-direction: row;
+    align-self: center;
+    background-color: #0c0c0c;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav .vr {
+    width: 3px;
+    height: 1.4rem;
+    background-color: #d5d5d5;
+    margin: 0.1rem;
+    align-self: center;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition:ease-in 0.6s;
+    font-weight: 200;
+    padding: 1rem;
+    opacity: 1;
+}
+    
+.nav a:hover {
+    color: rgb(28, 228, 228);}
