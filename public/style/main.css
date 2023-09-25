@@ -20,6 +20,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     margin-bottom: 10rem;
+    margin-top: 10rem;
 }
 
 .usr-head h1 {

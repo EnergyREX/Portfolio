@@ -1,6 +1,6 @@
 Who am I?
 
-I'm a guy who is still learning to develop the ""essentials"". I'm from Spain, Almería. I'm 19 years old. I was interested in AI since I was 15, and in programming since I was 17. I'm interested on social media too.
+I'm a guy who is still learning to develop on the Fullstack environment, but I want to specialize on FrontEnd.
 
 ---
 
@@ -15,7 +15,7 @@ What do I want to do with this CV page?
 The TO-DO list:What I have to do:
 
 - Make the main Style of website. OK, 70%
-- A separate "works/projects" pages.
+- A separate "works/projects" pages for each project.
 - Make the inner structure of the pages better. 50%
 - Add a dark / light mode toggler. #DarkForEver. Not started, just made dark mode.
 - Give & add animations, and give a better presentation of me. Just 20%. 

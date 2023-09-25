@@ -19,6 +19,7 @@ body {
     padding-right: 1rem;
     flex-direction: row;
     align-self: center;
+    background-color: #0c0c0c;
 }
 
 .nav li {
