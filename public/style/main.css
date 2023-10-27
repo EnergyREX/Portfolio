@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
 }
 
-/* * Header  */
+/** Header  */
 
 .usr-head {
     display: flex;
@@ -68,7 +68,7 @@ body {
     color: #fff;
 }
 
-.usr-footer img {
+.usr-footer i {
     width: 32px;
     height: 32px;
     padding: 2rem;
@@ -79,7 +79,7 @@ body {
     transition: 1s;
 }
 
-.usr-footer img:hover {
+.usr-footer i:hover {
     background-color: #101010;
 }
 /* TODO Adding animations to the images.*/
@@ -90,7 +90,20 @@ body {
     text-align: center;
 }
 
-/** Media queries para el diseño responsive. */
+.socialsnetworks__icon svg {
+    font-size: 4.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    width: auto;
+    height: auto;
+}
+
+.socialsnetworks__icon:hover svg{
+    background-color: rgb(37, 37, 173);
+}
+
+/** Media queries for responsive design. */
 
 @media screen and (max-width: 768px) {
 

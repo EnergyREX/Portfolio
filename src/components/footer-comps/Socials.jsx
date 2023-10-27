@@ -1,7 +1,5 @@
 import React from "react";
-import TwitterImg from "./socials/twitter.png"
-import GitHubImg from "./socials/github.png"
-import LinkedinImg from "./socials/linkedin.png"
+import { FaLinkedinIn, FaXTwitter, FaGithub } from "react-icons/fa6";
 
 const twitter = "https://twitter.com/RealEnergyREX";
 const github = "https://github.com/energyrex";
@@ -9,10 +7,10 @@ const linkedin = "";
 
 function Socials() {
     return (
-        <div class="socials">
-        <a href={twitter}><img src={TwitterImg} alt="Social" /></a>
-        <a href={github}><img src={GitHubImg} alt="Social" /></a>
-        <a href={linkedin}><img src={LinkedinImg} alt="Social" /></a>
+        <div class="socialsnetworks">
+        <a className="socialsnetworks__icon" href={twitter}><FaXTwitter /></a>
+        <a className="socialsnetworks__icon" href={github}><FaGithub /></a>
+        <a className="socialsnetworks__icon" href={linkedin}><FaLinkedinIn /></a>
         </div>
     )
 }
