@@ -14,18 +14,19 @@ What do I want to do with this CV page?
 
 The TO-DO list:What I have to do:
 
-- Make the main Style of website. OK, 70%
+- Make the main Style of website, with BEM methodology.
 - A separate "works/projects" pages for each project.
-- Make the inner structure of the pages better. 50%
+- Make the inner structure of the pages better.
 - Add a dark / light mode toggler. #DarkForEver. Not started, just made dark mode.
-- Give & add animations, and give a better presentation of me. Just 20%. 
+- Give & add animations, and give a better presentation of me.
 - "Condensed" site, with the most less pages, only separated for projects if needed.
 - Add a brand new logo.
 
 ---
 
-I have some projects considered, like: 
-- A "Big" Minecraft Mod for a Minecraft Server, with continous development. 
+I have some projects considered, like:
+
+- A "Big" Minecraft Mod for a Minecraft Server, with continous development.
 - Components made by me.
 
-Want to see the portfolio live? Visit this link. https://energyrex.dev. 
+Want to see the portfolio live? Visit this link. https://energyrex.dev.
