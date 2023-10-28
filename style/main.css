@@ -91,16 +91,17 @@ body {
 }
 
 .socialsnetworks__icon svg {
-    font-size: 4.5rem;
+    font-size: 4rem;
     margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 2.5rem;
     width: auto;
     height: auto;
+    transition: 0.3s;
 }
 
 .socialsnetworks__icon:hover svg{
-    background-color: rgb(37, 37, 173);
+    background-color: #101010;
 }
 
 /** Media queries for responsive design. */
