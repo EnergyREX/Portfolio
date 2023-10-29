@@ -5,10 +5,12 @@ html {
     font-family: 'Inter', sans-serif;
     background-color: #101010;
     color:#d5d5d5;
+    margin: 0px;
 }
 
 body {
     overflow-x: hidden;
+    margin: 0px;
 }
 
 /** Header  */
@@ -45,7 +47,7 @@ body {
 
 /** Footer */
 
-.usr-footer {
+.footer {
     padding-top: 3rem;
     margin-top: 5rem;
     display: flex;
@@ -56,7 +58,7 @@ body {
     padding-bottom: 3rem;
 }
 
-.usr-footer h1 {
+.footer__phrase{
     font-weight: 300;
     width: 40rem;
     text-align: center;
@@ -68,7 +70,7 @@ body {
     color: #fff;
 }
 
-.usr-footer i {
+.footer__socialnetworks svg {
     width: 32px;
     height: 32px;
     padding: 2rem;
@@ -79,25 +81,27 @@ body {
     transition: 1s;
 }
 
-.usr-footer i:hover {
+.footer__socialnetworks  svg:hover {
     background-color: #101010;
 }
 /* TODO Adding animations to the images.*/
 
-.copyright {
+.copyright__data {
     padding-top: 3rem;
-    font-weight: 100;
+    font-weight: 200;
     text-align: center;
+    color:#d5d5d5;
 }
 
 .socialsnetworks__icon svg {
     font-size: 4rem;
     margin: 1rem;
     padding: 2rem;
-    border-radius: 2.5rem;
+    border-radius: 3rem;
     width: auto;
     height: auto;
     transition: 0.3s;
+    color: #d5d5d5;
 }
 
 .socialsnetworks__icon:hover svg{
