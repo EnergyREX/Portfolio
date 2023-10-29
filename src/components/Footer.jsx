@@ -5,7 +5,7 @@ import Phrase from "./footer-comps/Phrase.jsx";
 
 function Footer() {
     return (
-        <footer className="usr-footer">
+        <footer className="footer">
             <Phrase />
             <Socials />
             <Copyright />

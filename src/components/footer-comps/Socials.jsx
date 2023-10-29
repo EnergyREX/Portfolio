@@ -7,10 +7,10 @@ const linkedin = "";
 
 function Socials() {
     return (
-        <div class="socialsnetworks">
-        <a className="socialsnetworks__icon" href={twitter}><FaXTwitter /></a>
-        <a className="socialsnetworks__icon" href={github}><FaGithub /></a>
-        <a className="socialsnetworks__icon" href={linkedin}><FaLinkedinIn /></a>
+        <div className="footer__socialsnetworks">
+        <a className="socialsnetworks__icon" href={twitter}><FaXTwitter className="socialsnetworks__icon"/></a>
+        <a className="socialsnetworks__icon" href={github}><FaGithub className="socialsnetworks__icon"/></a>
+        <a className="socialsnetworks__icon" href={linkedin}><FaLinkedinIn className="socialsnetworks__icon"/></a>
         </div>
     )
 }
