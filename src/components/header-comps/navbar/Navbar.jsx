@@ -1,17 +1,18 @@
 import React from "react";
-import {FaHouse, FaUserLarge, FaRegNewspaper} from "react-icons/fa6";
+import NavElement from "./NavElement";
+import NavVerticalRule from "./NavVerticalRule";
+import ThemeToggler from "./ThemeToggler";
 
 function Navbar () {
     return (
-        <nav class="nav">
-        <ul class="nav">
-            <li class="nav"><a className="nav__element" href="index.html"><FaHouse /> Home</a></li>
-            <li class="nav"><div class="vr"></div></li>
-            <li class="nav"><a href="index.html"><FaUserLarge /> About me!</a></li>
-            <li class="nav"><div class="vr"></div></li>
-            <li class="nav"><a href="index.html"><FaRegNewspaper /> Projects</a></li>
-        </ul>
-    </nav>
+        <nav className="navbar">
+            <ThemeToggler />
+            <NavVerticalRule />
+            <NavElement icon="home" link="index.html" name="Home"/>
+            <NavElement icon="user" link="index.html" name="About Me"/>
+            <NavElement icon="projects" link="index.html" name="Projects"/>
+        </nav>
+
     );
 }
 

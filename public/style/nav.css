@@ -1,53 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-html {
-    font-size: 10px;
-    font-family: 'Inter', sans-serif;
-    background-color: #010101;
-    color:#d5d5d5;
-}
-
-body {
-    margin: 0px;
-}
-
-.nav {
+.navbar {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 2.3rem;
-    padding-right: 1rem;
     flex-direction: row;
-    align-self: center;
-    background-color: #0c0c0c;
+    justify-content: flex-end;
+    margin: 2rem;
 }
 
-.nav li {
-    display: inline;
+.navbar__element {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-right: 4rem;
+    color: #d5d5d5;
+    transition: 0.3s;
 }
 
-.nav .vr {
+.navbar__vr {
     width: 3px;
     height: 1.4rem;
     background-color: #d5d5d5;
     margin: 0.1rem;
     align-self: center;
-}
-
-.nav a {
-    display: flex;
-    color: #ffffff;
-    text-decoration: none;
-    transition:ease-in 0.3s;
-    font-weight: 400;
-    padding: 1rem;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.nav svg {
-    padding-right: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
     
-.nav a:hover {
+.navbar__element:hover {
     color: rgb(15, 82, 82);}
+
+
+/* colors: rgb(15, 82, 82), #d5d5d5, #0c0c0c0;
