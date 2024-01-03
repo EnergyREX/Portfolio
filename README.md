@@ -1,32 +1,39 @@
-Who am I?
+# Who am I?
 
 I'm a guy who is still learning to develop on the Fullstack environment, but I want to specialize on FrontEnd.
 
 ---
 
-What do I want to do with this CV page?
+# Techs using on this portfolio:
 
-- I want to demonstrate to recruiters what I can do right now, showing my personal projects and other projects if possible where I participated, what I've made with the technologies what I've learnt. The projects, obviously, will be shown there and in GitHub.
+<table>
+    <tr>
+    <td><img src=https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg width=32px></td>
+    <td><img src=https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg width=32px></td>
+    <td><img src=https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg width=32px></td>
+    <td><img src=https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg width=32px></td>
+    <td><img src=https://www.vectorlogo.zone/logos/github/github-icon.svg width=32px>
+    </tr>
+    <tr>
+        <td> HTML5 </td>
+        <td> CSS3 </td>
+        <td> JavaScript </td>
+        <td> React.js </td>
+        <td> GH Pages</td>
+    </tr>
+</table>
 
-- Also, I'd like to have a record of what I've learnt while the time passes so I can see how was my progress, and maybe help someone, and the problems what I had with something and how I solved it.
+In the future probably, I use other techs as like Astro to give better performance on the website.
 
----
+The portfolio needs still needs work, for example on the side of the functions, like making it to be en English or Spanish (If it can auto-detect, better) or changing theme.
 
-The TO-DO list:What I have to do:
-
-- Make the main Style of website, with BEM methodology.
-- A separate "works/projects" pages for each project.
-- Make the inner structure of the pages better.
-- Add a dark / light mode toggler. #DarkForEver. Not started, just made dark mode.
-- Give & add animations, and give a better presentation of me.
-- "Condensed" site, with the most less pages, only separated for projects if needed.
-- Add a brand new logo.
+Also, needs to end the other "new sections" of "work" and "contact". Maybe on the future I build a blog section on the website.
 
 ---
 
 I have some projects considered, like:
 
 - A "Big" Minecraft Mod for a Minecraft Server, with continous development.
-- Components made by me.
+- Other websites / projects I've done
 
 Want to see the portfolio live? Visit this link. https://energyrex.dev.

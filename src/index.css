@@ -1,0 +1,28 @@
+:root {
+
+    --blue-chill-50: #f2f9f9;
+    --blue-chill-100: #ddeff0;
+    --blue-chill-200: #bfe0e2;
+    --blue-chill-300: #92cace;
+    --blue-chill-400: #5faab1;
+    --blue-chill-500: #438e96;
+    --blue-chill-600: #3b757f;
+    --blue-chill-700: #356169;
+    --blue-chill-800: #325158;
+    --blue-chill-900: #2d464c;
+    --blue-chill-950: #1a2c32;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0px;
+
+    background: var(--blue-chill-600);
+}

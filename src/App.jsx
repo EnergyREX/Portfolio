@@ -1,15 +1,21 @@
 import React from "react";
-import Header from "./components/Header.jsx";
-import AboutMe from "./components/AboutMe.jsx";
-import Footer from "./components/Footer.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Contact from "./pages/Contact"
+import Work from "./pages/Work"
+import Portfolio from "./pages/Portfolio"
+
+import "./index.css"
 
 function App() {
     return (
-    <div>
-        <Header />
-        <AboutMe />
-        <Footer />
-    </div>)
+        <Router>
+        <Routes>
+            <Route path="/" element={<Portfolio />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+    </Router>
+    )
 }
 
 export default App;
