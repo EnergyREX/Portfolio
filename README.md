@@ -1,39 +1,36 @@
-# Who am I?
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-I'm a guy who is still learning to develop on the Fullstack environment, but I want to specialize on FrontEnd.
+## Getting Started
 
----
+First, run the development server:
 
-# Techs using on this portfolio:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<table>
-    <tr>
-    <td><img src=https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg width=32px></td>
-    <td><img src=https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg width=32px></td>
-    <td><img src=https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg width=32px></td>
-    <td><img src=https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg width=32px></td>
-    <td><img src=https://www.vectorlogo.zone/logos/github/github-icon.svg width=32px>
-    </tr>
-    <tr>
-        <td> HTML5 </td>
-        <td> CSS3 </td>
-        <td> JavaScript </td>
-        <td> React.js </td>
-        <td> GH Pages</td>
-    </tr>
-</table>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-In the future probably, I use other techs as like Astro to give better performance on the website.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-The portfolio needs still needs work, for example on the side of the functions, like making it to be en English or Spanish (If it can auto-detect, better) or changing theme.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Also, needs to end the other "new sections" of "work" and "contact". Maybe on the future I build a blog section on the website.
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-I have some projects considered, like:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- A "Big" Minecraft Mod for a Minecraft Server, with continous development.
-- Other websites / projects I've done
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Want to see the portfolio live? Visit this link. https://energyrex.dev.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

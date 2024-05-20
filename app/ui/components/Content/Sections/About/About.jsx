@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import Link from "next/link"
 
 import AboutPhoto from "./AboutPhoto"
 import Socialbar from "./Socialbar/Socialbar"
@@ -18,7 +18,7 @@ export default function About() {
             <p>
                I like as well, to develop UX and UI designs, so I like to create good
                products while I develop. You can see some of my designs on this website
-               or on my <Link className="text__link" to="/projects"><span className="text__link">projects (comming soon).</span></Link>
+               or on my <Link className="text__link" href="/projects"><span className="text__link">projects (comming soon).</span></Link>
             </p>
             <p>Also, If you like, you can visit my social networks.</p>
 
