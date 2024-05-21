@@ -7,8 +7,9 @@ This is a personal portfolio to showcase projects, built with Next.js and CSS Mo
 
 ## Built with: 
 
-- Next.js.
-- CSS Modules.
+- [Next.js](nextjs.org)
+- [CSS Modules](https://nextjs.org/docs/app/building-your-application/styling/css-modules)
+- [React Icons](https://react-icons.github.io/react-icons/)  
 
 ## Visit website
 

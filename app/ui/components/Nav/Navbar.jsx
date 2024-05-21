@@ -1,15 +1,13 @@
-import { FaHouse } from "react-icons/fa6";
-import { FaEnvelope } from "react-icons/fa6";
-import { FaToolbox } from "react-icons/fa";
 import Link from "next/link";
+import styles from "./Navbar.module.css"
 
 export default function Navbar() {
     return (
-        <nav className="header__navbar">
-            <ul className="navbar__ul">
-                <Link link="/" className="navlink__selected">Home</Link>
-                <Link link="/work">Work</Link>
-                <Link link="/contact">Contact</Link>
+        <nav className={styles.navbar__main}>
+            <ul className={styles.navbar__body}>
+                <Link href="/" className={styles.navbarLink__main}>Home</Link>
+                <Link href="#work" className={styles.navbarLink__main}>Work</Link>
+                <Link href="/contact" className={styles.navbarLink__main}>Contact</Link>
             </ul>
         </nav>
     )

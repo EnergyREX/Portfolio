@@ -1,0 +1,32 @@
+.navbar__main {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.navbar__body {
+    margin-top: 1.5rem;
+    background: linear-gradient(to right, #141414, #212161);
+    padding: 1.2rem;
+    
+    border-radius: 5px;
+    border:#454545 solid 2px;
+}
+
+.navbarLink__main {
+    margin: 0.5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+
+    font-size: 1.025rem;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.navbarLink__main:hover {
+    color:#d1d1d1
+}

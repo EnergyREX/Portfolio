@@ -1,0 +1,41 @@
+.footer__main {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+
+    color: #fff;
+}
+
+.footer__copyright {
+    font-weight: 500;
+}
+
+.footer__socialBtn {
+    background-color: #141414;
+
+    border-radius: 5px;
+    border: 2px solid #212121;
+
+    padding: 0.6rem;
+    padding-bottom: 0.4rem;
+    margin: 0.6rem;
+
+    align-self: center;
+    justify-self: center;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    color: #fff;
+}
+
+.footer__socialBtn:hover {
+    color: #d9d9d9;
+    border-color: #d9d9d9;
+}
