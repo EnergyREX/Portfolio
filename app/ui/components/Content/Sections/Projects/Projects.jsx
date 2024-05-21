@@ -7,7 +7,7 @@ import astriximg from "@/app/ui/components/Content/assets/placeholder.png"
 
 export default function Projects() {
     return (
-        <section className="content__projects">
+        <section id="projects" className="content__projects">
             <ProjectTitle />
             <div className="projects__cardscontainer">
             <ProjectCrd projectName="AstriXMC - MC SMP" img={astriximg}>
