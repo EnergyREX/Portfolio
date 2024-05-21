@@ -1,0 +1,23 @@
+import React, { ReactNode } from 'react'
+
+interface props {
+    children: ReactNode;
+}
+
+const basicStyle = {
+    display: "flex",
+    background: "#171835",
+    color: "#fff",
+    margin: "1rem",
+    padding: "1rem",
+    border: "2px #d5d5d5 solid",
+    borderRadius: "5px"
+}
+
+const Card = ({ children }: props) => {
+  return (
+    <div style={basicStyle}>{children}</div>
+  )
+}
+
+export default Card

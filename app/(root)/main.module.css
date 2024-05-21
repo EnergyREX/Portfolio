@@ -60,3 +60,17 @@
     padding-left: 0.6rem;
     padding-top: 0.4rem;
 }
+
+/* About */
+
+.about__main { 
+    display: grid;
+
+    padding-right: 10rem;
+    padding-left: 10rem;
+
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+
+    grid-template-columns: repeat(2, 1fr);
+}
