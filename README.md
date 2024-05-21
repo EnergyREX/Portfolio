@@ -16,10 +16,10 @@ https://energyrex.dev
 
 ## Todos
 
-Hero section
-About section (Includes education, frameworks...)
-Projects section
-Contact section
+- Hero section
+- About section (Includes education, frameworks...)
+- Projects section
+- Contact section
 
 ## Why Next.js?
 
