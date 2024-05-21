@@ -25,8 +25,8 @@ Contact section
 
 There are some main reasons. 
 
-    - 1st, It's a React.js framework with all things I would need to make a project.
-    - 2nd, Since It's a framework, it includes many optimizations who I could not make it with React.
+1st, It's a React.js framework with all things I would need to make a project.
+2nd, Since It's a framework, it includes many optimizations who I could not make it with React.
 
 In summary, I will use Next to build this portfolio because of its advantages and because is a nice opportunity to learn this framework
 Also, I know there are other very good options to make projects like this, such as Astro.build, but this time I will use Next.
