@@ -72,5 +72,58 @@
     margin-top: 10rem;
     margin-bottom: 3rem;
 
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
+
+.cardBlock__phrase {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    flex-direction: column;
+}
+
+.cardBlock__stack {
+    grid-column: 4/6;
+    flex-direction: column;
+}
+
+.cardBlock__languages {
+    grid-column: 4/6;
+    flex-direction: column;
+}
+
+.cardBlock__contact {
+    grid-column: 1/3;
+    flex-direction: column;
+}
+
+.cardBlock__socials {
+    grid-column: 1/3;
+}
+
+.cardBlock__actualProject {
+    flex-direction: column;
+    grid-column: 3/6;
+    grid-row: 3/6;
+}
+
+.footer__socialBtn {
+    background-color: #141414;
+
+    border-radius: 5px;
+    border: 2px solid #212121;
+
+    padding: 0.6rem;
+    padding-bottom: 0.4rem;
+    margin: 0.6rem;
+
+    align-self: center;
+    justify-self: center;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    color: #fff;
+}
+

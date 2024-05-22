@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react'
 
 interface props {
     children: ReactNode;
+    className: string;
 }
 
 const basicStyle = {
@@ -11,12 +12,12 @@ const basicStyle = {
     margin: "1rem",
     padding: "1rem",
     border: "2px #d5d5d5 solid",
-    borderRadius: "5px"
+    borderRadius: "20px"
 }
 
-const Card = ({ children }: props) => {
+const Card = ({ children, className }: props) => {
   return (
-    <div style={basicStyle}>{children}</div>
+    <div className={className} style={basicStyle}>{children}</div>
   )
 }
 

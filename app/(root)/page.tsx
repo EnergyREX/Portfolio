@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Content from "../ui/components/Content/Content"
 import Hero from "../ui/components/Content/Sections/Hero/Hero"
-import { FaArrowRight } from "react-icons/fa6"
+import { FaArrowRight, FaGithub, FaInstagram, FaXTwitter } from "react-icons/fa6"
 
 import styles from "./main.module.css";
 import Card from "../ui/components/Card";
@@ -17,31 +17,32 @@ export default function Portfolio() {
 
         <section className={styles.about__main}>
           
-          <Card>
+          <Card className={styles.cardBlock__phrase}>
             <h1>I learn and improve my skills and stack each day.</h1>
+            <p>I </p>
           </Card>
 
-          <Card>
-            <h1>My stack right now is:</h1>
-            <p>Java, JavaScript & TypeScript</p>
-            <p>Express.js, SQL, MongoDB</p>
-            <p>Linux...</p>
+          <Card className={styles.cardBlock__stack}>
+            <h1>My stack:</h1>
           </Card>
-          <Card>
+          <Card className={styles.cardBlock__languages}>
             <h1>I Talk...</h1>
-            <h2>Spanish</h2>
-            <h2>English</h2>
-            <h2>(Learning) German</h2>
           </Card>
 
-          <Card>
-            <p>Right now working on...</p>
-            <h3>Ollama-chat application.</h3>
-          </Card>
-
-          <Card>
+          <Card className={styles.cardBlock__contact}>
             <h1>Want to get in touch?</h1>
             <Link href="contact">Let's talk!</Link>
+          </Card>
+
+          <Card className={styles.cardBlock__socials}>
+              <Link className={styles.footer__socialBtn} href="https://instagram.com/energyrex"><FaInstagram /></Link>
+              <Link className={styles.footer__socialBtn} href="https://x.com/RealEnergyREX"><FaXTwitter /></Link>
+              <Link className={styles.footer__socialBtn} href="https://github.com/EnergyREX"><FaGithub /></Link>
+          </Card>
+
+          <Card className={styles.cardBlock__actualProject}>
+            <p>Right now working on...</p>
+            <h3>Ollama-chat application.</h3>
           </Card>
         </section>
       </>
