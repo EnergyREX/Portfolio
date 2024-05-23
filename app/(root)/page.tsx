@@ -1,6 +1,4 @@
 import Link from "next/link"
-import Content from "../ui/components/Content/Content"
-import Hero from "../ui/components/Content/Sections/Hero/Hero"
 import { FaArrowRight, FaGithub, FaInstagram, FaXTwitter, FaArrowRightFromBracket } from "react-icons/fa6"
 
 import styles from "./main.module.css";
