@@ -12,7 +12,7 @@ const basicStyle = {
     margin: "1rem",
     padding: "1rem",
     border: "2px #d5d5d5 solid",
-    borderRadius: "20px"
+    borderRadius: "5px"
 }
 
 const Card = ({ children, className }: props) => {

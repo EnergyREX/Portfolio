@@ -1,14 +1,14 @@
 import Link from "next/link"
 import Content from "../ui/components/Content/Content"
 import Hero from "../ui/components/Content/Sections/Hero/Hero"
-import { FaArrowRight, FaGithub, FaInstagram, FaXTwitter } from "react-icons/fa6"
+import { FaArrowRight, FaGithub, FaInstagram, FaXTwitter, FaArrowRightFromBracket } from "react-icons/fa6"
 
 import styles from "./main.module.css";
 import Card from "../ui/components/Card";
 
 export default function Portfolio() {
     return (
-      <>
+      <main>
         <section className={styles.hero__main}>
           <h1 className={styles.hero__title}>Transforming ideas into <span className={styles.hero__title__highlight}>real project ideas</span></h1>
           <p className={styles.hero__subtitle}>I'm Francisco, a fullstack developer based on Spain.</p>
@@ -45,6 +45,21 @@ export default function Portfolio() {
             <h3>Ollama-chat application.</h3>
           </Card>
         </section>
-      </>
+
+        <h1 className={styles.projects__title}>Projects I've done so far</h1>
+
+        <section className={styles.projects__main}>
+          
+
+          <Card className={styles.projects__card}>
+            <h2 className={styles.card__title}>[Working on] Ollama-chat</h2>
+            <h4 className={styles.card__subtitle}>Chat application</h4>
+
+            <p>This project aims to create an application simillar to ChatGPT, but instead of using GPT-4 or GPT-3.5, using Ollama.</p>
+            
+            <Link className={styles.pcard__button} href="https://github.com/EnergyREX/ollama-chat">See more <span className={styles.pcard__button__icon}> <FaArrowRightFromBracket /> </span></Link>
+          </Card>
+        </section>
+      </main>
     )
 }
