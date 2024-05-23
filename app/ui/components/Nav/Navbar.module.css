@@ -1,18 +1,15 @@
 .navbar__main {
     display: flex;
     flex-direction: row;
-    align-self: center;
-    justify-content: center;
+    justify-content: flex-end;
 
+    padding-right: 20rem;
 }
 
 .navbar__body {
     margin-top: 1.5rem;
-    background: linear-gradient(to right, #141414, #212161);
     padding: 1.2rem;
-    
     border-radius: 5px;
-    border:#454545 solid 2px;
 }
 
 .navbarLink__main {
@@ -20,7 +17,7 @@
     padding-left: 0.3rem;
     padding-right: 0.3rem;
 
-    font-size: 1.025rem;
+    font-size: 1.125rem;
 
     text-decoration: none;
 

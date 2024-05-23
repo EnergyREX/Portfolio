@@ -4,6 +4,7 @@ import { FaArrowRight, FaGithub, FaInstagram, FaXTwitter, FaArrowRightFromBracke
 import styles from "./main.module.css";
 import Card from "../ui/components/Card";
 
+
 export default function Portfolio() {
     return (
       <main>
@@ -17,23 +18,27 @@ export default function Portfolio() {
           
           <Card className={styles.cardBlock__phrase}>
             <h1>I learn and improve my skills and stack each day.</h1>
-            <p>I like to develop </p>
+            <p>I like to develop solutions for problems who can have someone, </p>
           </Card>
 
           <Card className={styles.cardBlock__stack}>
-            <h1>My stack:</h1>
-            HTML & CSS, JavaScript, TypeScript, Express.js, Next.js, Linux...
+            <h1 className={styles.stack__title}>My stack:</h1>
+            <div className={styles.stack__badges}>
+            <p className={styles.stack__badge}>HTML & CSS</p> <p className={styles.stack__badge}>JavaScript</p> 
+            <p className={styles.stack__badge}>TypeScript</p> <p className={styles.stack__badge}>Express.js</p> 
+            <p className={styles.stack__badge}>Next.js</p> <p className={styles.stack__badge}>Linux...</p>
+            </div>
           </Card>
           <Card className={styles.cardBlock__languages}>
-            <h1>I Talk...</h1>
-            Spanish
-            English
-            German (Learning)
+            <h1 className={styles.languages__title}>I Talk...</h1>
+            <p className={styles.languages__lang}>🇪🇸 Spanish</p>
+            <p className={styles.languages__lang}>🇬🇧 English</p>
+            <p className={styles.languages__lang}>🇩🇪 German (Learning)</p>
           </Card>
 
           <Card className={styles.cardBlock__contact}>
-            <h1>Want to get in touch?</h1>
-            <Link href="contact">Let's talk!</Link>
+            <h1 className={styles.contact__title}>Do you want to contact me?</h1>
+            <Link className={styles.contact__btn} href="#contact">Let's talk!</Link>
           </Card>
 
           <Card className={styles.cardBlock__socials}>
@@ -43,8 +48,11 @@ export default function Portfolio() {
           </Card>
 
           <Card className={styles.cardBlock__actualProject}>
-            <p>My education:</p>
-            <h3>Ollama-chat application.</h3>
+            <h2>My education</h2>
+            <div>
+            <h3>Social Sciences and Humanities Bachillerato.</h3>
+            <p>2020 - 2022</p>
+            </div>
           </Card>
 
         </section>
