@@ -22,6 +22,18 @@ https://energyrex.dev
 - Projects section
 - Contact section
 
+## Run the project
+
+Open **Powershell** or your terminal.
+
+Clone the repo with ``git clone https://github.com/energyrex/portfolio`` (You should have installed Git before.)
+
+Go to the directory of the portfolio, in this case you should use ``cd portfolio``
+
+Run `` npm run dev `` in terminal. You should check if you are in the correspondant directory. You should have Node and Npm installed.
+
+Go to `` localhost:3000 ``
+
 ## Why Next.js?
 
 There are some main reasons. 
