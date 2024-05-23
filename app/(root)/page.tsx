@@ -1,6 +1,4 @@
 import Link from "next/link"
-import Content from "../ui/components/Content/Content"
-import Hero from "../ui/components/Content/Sections/Hero/Hero"
 import { FaArrowRight, FaGithub, FaInstagram, FaXTwitter } from "react-icons/fa6"
 
 import styles from "./main.module.css";
@@ -8,7 +6,7 @@ import Card from "../ui/components/Card";
 
 export default function Portfolio() {
     return (
-      <>
+      <main>
         <section className={styles.hero__main}>
           <h1 className={styles.hero__title}>Transforming ideas into <span className={styles.hero__title__highlight}>real project ideas</span></h1>
           <p className={styles.hero__subtitle}>I'm Francisco, a fullstack developer based on Spain.</p>
@@ -19,14 +17,18 @@ export default function Portfolio() {
           
           <Card className={styles.cardBlock__phrase}>
             <h1>I learn and improve my skills and stack each day.</h1>
-            <p>I </p>
+            <p>I like to develop </p>
           </Card>
 
           <Card className={styles.cardBlock__stack}>
             <h1>My stack:</h1>
+            HTML & CSS, JavaScript, TypeScript, Express.js, Next.js, Linux...
           </Card>
           <Card className={styles.cardBlock__languages}>
             <h1>I Talk...</h1>
+            Spanish
+            English
+            German (Learning)
           </Card>
 
           <Card className={styles.cardBlock__contact}>
@@ -41,10 +43,20 @@ export default function Portfolio() {
           </Card>
 
           <Card className={styles.cardBlock__actualProject}>
+            <p>My education:</p>
+            <h3>Ollama-chat application.</h3>
+          </Card>
+
+        </section>
+
+        <section>
+          <h1>Some projects I've build</h1>
+          <Card className={styles.cardBlock__actualProject}>
             <p>Right now working on...</p>
             <h3>Ollama-chat application.</h3>
           </Card>
+
         </section>
-      </>
+      </main>
     )
 }

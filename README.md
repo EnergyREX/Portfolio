@@ -18,7 +18,7 @@ https://energyrex.dev
 ## Todos
 
 - Hero section
-- About section (Includes education, frameworks...)
+- About section (Includes education, languages...)
 - Projects section
 - Contact section
 
