@@ -19,14 +19,18 @@ export default function Portfolio() {
           
           <Card className={styles.cardBlock__phrase}>
             <h1>I learn and improve my skills and stack each day.</h1>
-            <p>I </p>
+            <p>I like to develop </p>
           </Card>
 
           <Card className={styles.cardBlock__stack}>
             <h1>My stack:</h1>
+            HTML & CSS, JavaScript, TypeScript, Express.js, Next.js, Linux...
           </Card>
           <Card className={styles.cardBlock__languages}>
             <h1>I Talk...</h1>
+            Spanish
+            English
+            German (Learning)
           </Card>
 
           <Card className={styles.cardBlock__contact}>
@@ -41,9 +45,19 @@ export default function Portfolio() {
           </Card>
 
           <Card className={styles.cardBlock__actualProject}>
+            <p>My education:</p>
+            <h3>Ollama-chat application.</h3>
+          </Card>
+
+        </section>
+
+        <section>
+          <h1>Some projects I've build</h1>
+          <Card className={styles.cardBlock__actualProject}>
             <p>Right now working on...</p>
             <h3>Ollama-chat application.</h3>
           </Card>
+
         </section>
 
         <h1 className={styles.projects__title}>Projects I've done so far</h1>

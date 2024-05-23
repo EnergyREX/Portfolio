@@ -99,6 +99,9 @@
 
 .cardBlock__socials {
     grid-column: 1/3;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .cardBlock__actualProject {
@@ -120,11 +123,19 @@
     align-self: center;
     justify-self: center;
 
-    font-size: 1rem;
-
+    font-size: 1.725rem;
     font-weight: 600;
-
     color: #fff;
+}
+
+.footer__socialBtn:hover {
+    color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+
+.footer__socialBtn:hover {
+    color: #d9d9d9;
+    border-color: #d9d9d9;
 }
 
 
