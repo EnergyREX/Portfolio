@@ -49,15 +49,6 @@ export default function Portfolio() {
 
         </section>
 
-        <section>
-          <h1>Some projects I've build</h1>
-          <Card className={styles.cardBlock__actualProject}>
-            <p>Right now working on...</p>
-            <h3>Ollama-chat application.</h3>
-          </Card>
-
-        </section>
-
         <h1 className={styles.projects__title}>Projects I've done so far</h1>
 
         <section className={styles.projects__main}>
