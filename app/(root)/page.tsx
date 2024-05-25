@@ -1,11 +1,21 @@
+'use client'
+
+import react, { useState, useEffect, useRef } from "react";
 import Link from "next/link"
 import { FaArrowRight, FaGithub, FaInstagram, FaXTwitter, FaArrowRightFromBracket } from "react-icons/fa6"
+
+import gsap from "gsap";
+import { useGSAP } from '@gsap/react';
 
 import styles from "./main.module.css";
 import Card from "../ui/components/Card";
 
 
 export default function Portfolio() {
+
+    const [stack, setStack] = useState('')
+
+
     return (
       <main>
         <section className={styles.hero__main}>
@@ -18,7 +28,13 @@ export default function Portfolio() {
           
           <Card className={styles.cardBlock__phrase}>
             <h1>I learn and improve my skills and stack each day.</h1>
-            <p>I like to develop solutions for problems who can have someone, </p>
+            <p>
+              I like to develop solutions for problems who can have someone. 
+              I enjoy challenging myself by doing projects that are challenging. 
+              So, with them, I grow and develop myself as a developer. This website, is an 
+              example of my growing. My before projects during the time, the majority are deleted, but 
+              new projects that I'm making, are becoming better and better.
+              </p>
           </Card>
 
           <Card className={styles.cardBlock__stack}>
@@ -26,7 +42,7 @@ export default function Portfolio() {
             <div className={styles.stack__badges}>
             <p className={styles.stack__badge}>HTML & CSS</p> <p className={styles.stack__badge}>JavaScript</p> 
             <p className={styles.stack__badge}>TypeScript</p> <p className={styles.stack__badge}>Express.js</p> 
-            <p className={styles.stack__badge}>Next.js</p> <p className={styles.stack__badge}>Linux...</p>
+            <p className={styles.stack__badge}>Next.js</p> <p className={styles.stack__badge}>Linux</p>
             </div>
           </Card>
           <Card className={styles.cardBlock__languages}>

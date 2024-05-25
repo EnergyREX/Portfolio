@@ -9,7 +9,8 @@ This is a personal portfolio to showcase projects, built with Next.js and CSS Mo
 
 - [Next.js](nextjs.org)
 - [CSS Modules](https://nextjs.org/docs/app/building-your-application/styling/css-modules)
-- [React Icons](https://react-icons.github.io/react-icons/)  
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [GSAP](https://gsap.com/)
 
 ## Visit website
 
@@ -20,7 +21,9 @@ https://energyrex.dev
 - Hero section
 - About section (Includes education, languages...)
 - Projects section
-- Contact section
+- Contact
+- Responsive design
+- Animate the website
 
 ## Run the project
 

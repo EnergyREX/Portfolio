@@ -3,10 +3,9 @@
 
     flex-wrap: wrap;
     justify-content: space-between;
-
-    margin-left: 3rem;
-    margin-right: 2rem;
+    
     margin-bottom: 2rem;
+    margin-top: 3rem;
 
     color: #fff;
 }
