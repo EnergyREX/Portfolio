@@ -16,17 +16,18 @@ export default function Portfolio() {
 
     const [stack, setStack] = useState('')
     const heroHeader = useRef(null)
+    const heroIcon = useRef(null)
 
     let callCount = 0;
 
     useEffect(() => {
       console.log("useEffect() call", ++callCount);
       
-      gsap.from(heroHeader.current, {
-        opacity: 0,
-        y: 100,
+      gsap.to(heroHeader.current, {
+        opacity: 1,
+        y: -20,
         ease: 'power3',
-        duration: 2
+        duration: 1
       })
   
     })
@@ -40,8 +41,8 @@ export default function Portfolio() {
 
     return (
       <main>
-        <section className={styles.hero__main}>
-          <h1 ref={heroHeader} className={styles.hero__title}>Transforming ideas into <span className={styles.hero__title__highlight}>real project ideas</span></h1>
+        <section ref={heroHeader} className={styles.hero__main}>
+          <h1 className={styles.hero__title}>Transforming ideas into <span className={styles.hero__title__highlight}>real project ideas</span></h1>
           <p className={styles.hero__subtitle}>I'm Francisco, a fullstack developer based on Spain.</p>
           <Link className={styles.hero__button} href="#projects">Show my work <span className={styles.hero__button__cosmetic}><FaArrowRight /></span></Link>
         </section>

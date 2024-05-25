@@ -1,6 +1,9 @@
 .mainBody {
   margin: 0;
   background: linear-gradient(to bottom, #161616, #00001b);
+  
+  background: radial-gradient(circle at center, rgba(0, 0, 27, 1), rgba(22, 22, 22, 0.9)),
+  radial-gradient(circle at center, rgba(22, 22, 22, 0.5), rgba(22, 22, 22, 0));
   padding-right: 25rem;
   padding-left: 25rem;
 }
@@ -58,8 +61,8 @@
 
 @media (min-width: 1441px) {
   .mainBody {
-    padding-right: 25rem;
-    padding-left: 25rem;
+    padding-right: 20rem;
+    padding-left: 20rem;
   }
 
 }

@@ -1,4 +1,5 @@
 .hero__main {
+    opacity: 0;
     display: flex;
     flex-direction: column;
 
@@ -7,6 +8,8 @@
 
     text-wrap: pretty;
     text-align: center;
+
+    margin-bottom: 10rem; 
 }
 
 
@@ -17,6 +20,7 @@
 
     margin-top: 5rem;
     margin-bottom: 0rem;
+    bottom: 100px;
 }
 
 .hero__title__highlight {

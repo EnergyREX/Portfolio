@@ -22,12 +22,13 @@ https://energyrex.dev
 - About section (Includes education, languages...)
 - Projects section
 - Contact
+- Split the UI in parts instead of just using page.tsx
 - Responsive design
 - Animate the website
 
 ## Run the project
 
-Open **Powershell** or your terminal.
+Open **Powershell** or your terminal emulator.
 
 Clone the repo with ``git clone https://github.com/energyrex/portfolio`` (You should have installed Git before.)
 
