@@ -1,8 +1,65 @@
 .mainBody {
-  margin: 0px;
-
+  margin: 0;
   background: linear-gradient(to bottom, #161616, #00001b);
-
   padding-right: 25rem;
   padding-left: 25rem;
+}
+
+/* Media queries deben estar fuera del bloque .mainBody */
+
+@media (max-width: 320px) {
+  .mainBody {
+    padding-right: 0.4167rem;
+    padding-left: 0.4167rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .mainBody {
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+  .mainBody {
+    padding-right: 0.78125rem;
+    padding-left: 0.78125rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .mainBody {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mainBody {
+    padding-right: 1.3333rem;
+    padding-left: 1.3333rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .mainBody {
+    padding-right: 1.5625rem;
+    padding-left: 1.5625rem;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .mainBody {
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+  }
+}
+
+@media (min-width: 1441px) {
+  .mainBody {
+    padding-right: 25rem;
+    padding-left: 25rem;
+  }
+
 }
