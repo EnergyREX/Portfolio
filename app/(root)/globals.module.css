@@ -52,8 +52,8 @@
 
 @media (min-width: 1201px) and (max-width: 1440px) {
   .mainBody {
-    padding-right: 1.875rem;
-    padding-left: 1.875rem;
+    padding-right: 20rem;
+    padding-left: 20rem;
   }
 }
 
@@ -61,6 +61,13 @@
   .mainBody {
     padding-right: 20rem;
     padding-left: 20rem;
+  }
+
+  @media (min-width: 1601px) {
+    .mainBody {
+      padding-right: 25rem;
+      padding-left: 25rem;
+    }
   }
 
 }

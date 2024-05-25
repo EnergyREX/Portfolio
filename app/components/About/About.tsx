@@ -26,6 +26,7 @@ const About = () => {
         <p className={styles.stack__badge}>HTML & CSS</p> <p className={styles.stack__badge}>JavaScript</p> 
         <p className={styles.stack__badge}>TypeScript</p> <p className={styles.stack__badge}>Express.js</p> 
         <p className={styles.stack__badge}>Next.js</p> <p className={styles.stack__badge}>Linux</p>
+        <p className={styles.stack__badge}>MongoDB</p> <p className={styles.stack__badge}>SQL</p> 
         </div>
       </Card>
       <Card className={styles.cardBlock__languages}>
