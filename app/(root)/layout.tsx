@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import styles from "./globals.module.css"
-import Footer from "../ui/components/Footer/Footer"
-import Navbar from "../ui/components/Nav/Navbar";
+import Footer from "../components/ui/Footer/Footer"
+import Navbar from "../components/ui/Nav/Navbar";
 
 export const metadata: Metadata = {
   title: "EnergyREX's Portfolio",
