@@ -3,6 +3,7 @@
 import react, { useState, useEffect, useRef } from "react";
 import Link from "next/link"
 import { FaArrowRight, FaGithub, FaInstagram, FaXTwitter, FaArrowRightFromBracket } from "react-icons/fa6"
+import { FaUserCheck, FaCode } from "react-icons/fa";
 
 import gsap from "gsap";
 import { useGSAP } from '@gsap/react';
@@ -26,9 +27,10 @@ export default function Portfolio() {
           <p className={styles.hero__subtitle}>I'm Francisco, a fullstack developer based on Spain.</p>
           <Link className={styles.hero__button} href="#projects">Show my work <span className={styles.hero__button__cosmetic}><FaArrowRight /></span></Link>
         </section>
-
+        <h1 className={styles.about__title}><FaUserCheck className={styles.about__title__icon} /> Know about me</h1>
         <section className={styles.about__main}>
           
+
           <Card className={styles.cardBlock__phrase}>
             <h1>I learn and improve my skills and stack each day.</h1>
             <p>
@@ -76,7 +78,7 @@ export default function Portfolio() {
 
         </section>
 
-        <h1 className={styles.projects__title}>Projects I've done so far</h1>
+        <h1 className={styles.projects__title}><FaCode className={styles.about__title__icon}/>Projects I've done so far</h1>
 
         <section className={styles.projects__main}>
           
