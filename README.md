@@ -18,11 +18,7 @@ https://energyrex.dev
 
 ## Todos
 
-- Hero section
-- About section (Includes education, languages...)
-- Projects section
-- Contact
-- Split the UI in parts instead of just using page.tsx
+- About section's own bg decorations
 - Responsive design
 - Animate the website
 

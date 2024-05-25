@@ -1,0 +1,149 @@
+.about__title {
+    display: flex;
+    font-size: 1.825rem;
+
+    color: #fff;
+
+    margin-top: 5rem;
+    margin-left: 1rem;
+    
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.about__title__icon {
+    margin-right: 1rem;
+}
+
+.about__main { 
+    display: grid;
+
+
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.cardBlock__phrase {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    flex-direction: column;
+}
+
+.cardBlock__stack {
+    grid-column: 4/6;
+    flex-direction: column;
+}
+
+.stack__title {
+    margin: 0px;
+    margin-bottom: 0.2rem;
+}
+
+.stack__badges {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stack__badge {
+    display: flex;
+    color: #fff;
+    padding: 0.5rem;
+    margin: 0.2rem;
+
+    text-decoration: none;
+    align-items: center;
+    align-self: center;
+    font-weight: 500;
+
+    border-radius: 5px;
+    background-color: #141414;
+}
+
+.cardBlock__languages {
+    grid-column: 4/6;
+    flex-direction: column;
+}
+
+.languages__title {
+    margin-top: 0px;
+}
+
+.languages__lang {
+    margin: 0.2rem
+}
+
+.cardBlock__contact {
+    grid-column: 1/3;
+    flex-direction: column;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.contact__title {
+    margin-bottom: 0px;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.contact__btn {
+    display: flex;
+    color: #fff;
+
+    margin-top: 2.5rem;
+    padding: 0.5rem;
+
+    font-size: 1.125rem;
+    text-decoration: none;
+    align-items: center;
+    align-self: center;
+    font-weight: 500;
+
+    border-radius: 5px;
+    border: 2px solid #d5d5d5;
+    background: linear-gradient(to right, #141414, #0000ff );
+}
+
+.cardBlock__socials {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.cardBlock__actualProject {
+    flex-direction: column;
+    grid-column: 3/6;
+    grid-row: 3/6;
+}
+
+.footer__socialBtn {
+    background-color: #141414;
+
+    border-radius: 5px;
+    border: 2px solid #212121;
+
+    padding: 0.6rem;
+    padding-bottom: 0.4rem;
+    margin: 0.6rem;
+
+    align-self: center;
+    justify-self: center;
+
+    font-size: 1.725rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer__socialBtn:hover {
+    color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+
+.footer__socialBtn:hover {
+    color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+
