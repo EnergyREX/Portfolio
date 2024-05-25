@@ -15,6 +15,9 @@ export default function Portfolio() {
 
     const [stack, setStack] = useState('')
 
+    function handleContact () {
+      const mailto = `mailto:energyrexycrystal@gmail.com`
+    }
 
     return (
       <main>
@@ -54,7 +57,7 @@ export default function Portfolio() {
 
           <Card className={styles.cardBlock__contact}>
             <h1 className={styles.contact__title}>Do you want to contact me?</h1>
-            <Link className={styles.contact__btn} href="#contact">Let's talk!</Link>
+            <Link className={styles.contact__btn} href="mailto:energyrexycrystal@gmail.com">Let's talk!</Link>
           </Card>
 
           <Card className={styles.cardBlock__socials}>

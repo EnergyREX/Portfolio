@@ -3,3 +3,5 @@ const stack = {
     backend: ["Java", "SQL", "Bash"],
     systems: ["Linux"]
 }
+
+export default { stack }
