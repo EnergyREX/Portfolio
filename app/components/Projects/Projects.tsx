@@ -8,7 +8,7 @@ import Card from '../ui/Card'
 const Projects = () => {
   return (
     <div>
-    <h1 className={styles.projects__title}><FaCode className={styles.about__title__icon}/>Projects I've done so far</h1>
+    <h1 className={styles.projects__title}><FaCode className={styles.card__title__icon}/>Projects I've done so far</h1>
 
         <section className={styles.projects__main}>
         <Card className={styles.projects__card}>
