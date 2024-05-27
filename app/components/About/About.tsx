@@ -7,7 +7,7 @@ import { FaGithub, FaInstagram, FaUserCheck, FaXTwitter } from 'react-icons/fa6'
 
 const About = () => {
   return (
-    <div>        <h1 className={styles.about__title}><FaUserCheck className={styles.about__title__icon} /> Know about me</h1>
+    <div><h1 className={styles.about__title}><FaUserCheck className={styles.about__title__icon} /> Know about me</h1>
     <section className={styles.about__main}>
       <Card className={styles.cardBlock__phrase}>
         <h1>I learn and improve my skills and stack each day.</h1>

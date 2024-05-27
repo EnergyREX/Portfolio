@@ -18,6 +18,7 @@
     font-weight: 500;
     margin-top: 5rem;
     margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .projects__title__highlight {
@@ -67,4 +68,17 @@
 .pcard__button__icon {
     padding-left: 0.6rem;
     padding-top: 0.4rem;
+}
+
+@media (max-width: 1024px) {
+    .projects__main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .projects__card {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    
+        flex-direction: column;
+    }
 }

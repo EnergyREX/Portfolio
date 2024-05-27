@@ -45,15 +45,15 @@
 
 @media (min-width: 1025px) and (max-width: 1200px) {
   .mainBody {
-    padding-right: 1.5625rem;
-    padding-left: 1.5625rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
 }
 
 @media (min-width: 1201px) and (max-width: 1440px) {
   .mainBody {
-    padding-right: 1.875rem;
-    padding-left: 1.875rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
   }
 }
 

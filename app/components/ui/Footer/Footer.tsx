@@ -12,11 +12,11 @@ export default function Footer () {
             <div className="footer__text">
                 <p className={styles.footer__copyright}>Copyright EnergyREX © {year}</p>
             </div>
-            <div>
+            <p>
                 <Link className={styles.footer__socialBtn} href="https://instagram.com/energyrex"><FaInstagram /></Link>
                 <Link className={styles.footer__socialBtn} href="https://x.com/RealEnergyREX"><FaXTwitter /></Link>
                 <Link className={styles.footer__socialBtn} href="https://github.com/EnergyREX"><FaGithub /></Link>
-            </div>
+            </p>
         </footer>
     )
 }

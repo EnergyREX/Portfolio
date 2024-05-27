@@ -25,3 +25,9 @@
 .navbarLink__main:hover {
     color:#d1d1d1
 }
+
+@media (max-width: 1024px) {
+    .navbar__main {
+        justify-content: center;
+    }
+}
