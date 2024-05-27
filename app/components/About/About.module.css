@@ -1,3 +1,7 @@
+.bentobox__wrapper {
+    opacity: 0;
+}
+
 .about__title {
     display: flex;
     font-size: 1.825rem;

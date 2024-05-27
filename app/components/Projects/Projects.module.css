@@ -25,6 +25,10 @@
     color: gold;
 }
 
+.card__title__icon {
+    margin-right: 1rem;
+}
+
 .projects__card {
     grid-column: 1/2;
     grid-row: 1/2;
