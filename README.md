@@ -18,21 +18,23 @@ https://energyrex.dev
 
 ## Todos
 
-- About section's own bg decorations
-- Responsive design
-- Animate the website
+- Sections decorations and effects.
+- Give more identity to the cards of About Me section.
+- Add more projects and give their cards their own style.
+- Responsive design (DONE)
+- Animate the website (DONE)
 
 ## Run the project
 
-Open **Powershell** or your terminal emulator.
+1. Open **Powershell** or your prefered terminal emulator.
 
-Clone the repo with ``git clone https://github.com/energyrex/portfolio`` (You should have installed Git before.)
+2. Clone the repo with ```git clone https://github.com/energyrex/portfolio```
 
-Go to the directory of the portfolio, in this case you should use ``cd portfolio``
+3. Go to the directory of the portfolio, in this case you should use ```cd portfolio```
 
-Run `` npm run dev `` in terminal. You should check if you are in the correspondant directory. You should have Node and Npm installed.
+4. Run ``` npm run dev ``` in terminal. You should check if you are in the correspondant directory. You should have Node and Npm installed.
 
-Go to `` localhost:3000 ``
+5. Go to ``` localhost:3000 ```
 
 ## Why Next.js?
 
@@ -43,3 +45,13 @@ There are some main reasons.
 
 In summary, I will use Next to build this portfolio because of its advantages and because is a nice opportunity to learn this framework
 Also, I know there are other very good options to make projects like this, such as Astro.build, but this time I will use Next.
+
+## Project images
+
+![Hero Section](./public/Hero-Section.png "Hero Section")
+
+![About me](./public/AboutSection.png "About me section")
+
+![Projects Section](./public/Projects-Section.png "Projects section")
+
+
