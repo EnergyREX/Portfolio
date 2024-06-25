@@ -5,6 +5,8 @@
 This is a personal portfolio to showcase projects, built with Next.js and CSS Modules. This website features Hero, About, Projects, and Contact sections.
 (I'm building this website!)
 
+This website is now deployed on Vercel's site since it uses **Next.js**
+
 ## Built with: 
 
 - [Next.js](nextjs.org)
@@ -54,4 +56,4 @@ Also, I know there are other very good options to make projects like this, such 
 
 ![Projects Section](./public/Projects-Section.png "Projects section")
 
-
+You can use this project for your own portfolio. Just, give the credits that I've made this project.
