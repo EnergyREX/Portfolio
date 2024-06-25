@@ -17,7 +17,7 @@ const About = () => {
             I enjoy challenging myself by doing projects that are challenging. 
             So, with them, I grow and develop myself as a developer. This website, is an 
             example of my growing. My before projects during the time, the majority are deleted, but 
-            new projects that I'm making, are becoming better and better.
+            new projects that I'm making are becoming better.
             </p>
         </Card>
 
