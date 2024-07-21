@@ -8,10 +8,13 @@
     margin-top: 3rem;
 
     color: #fff;
+
+    border-top: 1px #3a3a3a solid;
 }
 
 .footer__copyright {
     font-weight: 500;
+    
 }
 
 .footer__socialBtn {

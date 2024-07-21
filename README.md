@@ -22,9 +22,10 @@ https://energyrex.dev
 
 - Sections decorations and effects.
 - Give more identity to the cards of About Me section.
-- Add more projects and give their cards their own style.
-- Responsive design (DONE)
-- Animate the website (DONE)
+- Add more projects and give their cards their own style and separated page.
+- Create a error 404 section.
+- Responsive design **(DONE)**
+- Animate the website **(DONE)**
 
 ## Run the project
 
