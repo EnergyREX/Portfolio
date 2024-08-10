@@ -1,5 +1,5 @@
 import React, {useRef, useEffect} from 'react'
-import Card from '../ui/Card'
+import Card from '../../../components/ui/Card'
 
 import styles from "./About.module.css"
 import Link from 'next/link'
@@ -53,6 +53,10 @@ const About = () => {
           <div>
           <h3>Social Sciences and Humanities Bachillerato.</h3>
           <p>2020 - 2022</p>
+          </div>
+          <div>
+            <h3>Self taught fullstack developer</h3>
+            <p>2020 - actuality </p>
           </div>
         </Card>
 

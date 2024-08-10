@@ -3,7 +3,7 @@ import React from 'react'
 
 import styles from "./Projects.module.css"
 import { FaArrowRightFromBracket, FaCode } from 'react-icons/fa6'
-import Card from '../ui/Card'
+import Card from '../../../components/ui/Card'
 
 const Projects = () => {
   return (
@@ -17,6 +17,7 @@ const Projects = () => {
 
         <p>This project aims to create an application simillar to ChatGPT, but instead of using GPT-4 or GPT-3.5, using Ollama.</p>
     
+        <p>Tech used: </p>
         <Link className={styles.pcard__button} href="https://github.com/EnergyREX/ollama-chat">See more <span className={styles.pcard__button__icon}> <FaArrowRightFromBracket /> </span></Link>
     </Card>
 </section>

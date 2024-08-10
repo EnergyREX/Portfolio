@@ -3,8 +3,8 @@
 import react, { useState, useEffect, useRef } from "react";
 
 import Hero from "../components/Hero/Hero";
-import About from "../components/About/About";
-import Projects from "../components/Projects/Projects";
+import About from "./sections/About/About";
+import Projects from "./sections/Projects/Projects";
 
 
 export default function Portfolio() {
